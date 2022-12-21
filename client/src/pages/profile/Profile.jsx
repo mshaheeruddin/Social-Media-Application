@@ -35,7 +35,9 @@ export default function Profile() {
               />
               <img
                 className="profileUserImg"
-                src={user.profilePicture || PF+"persons/dp5.jpg"}
+                src={user.profilePicture 
+                  ? PF + user.profilePicture 
+                  : PF + "persons/noavatar.png"}
                 alt=""
               />
             </div>

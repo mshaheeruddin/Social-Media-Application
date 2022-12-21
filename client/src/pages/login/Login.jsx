@@ -13,14 +13,14 @@ export default function Login() {
     e.preventDefault()
     loginCall({email: email.current.value,password: password.current.value},dispatch )
   }
-    
+    console.log(user)
   return (
     <div className="login">
       <div className="loginWrapper">
         <div className="loginLeft">
           <h3 className="loginLogo">PakSocial</h3>
           <span className="loginDesc">
-            Connect with friends around Pakistan!.
+            Connect with friends around Pakistan!
           </span>
         </div>
         <div className="loginRight">
@@ -32,8 +32,12 @@ export default function Login() {
             required 
             minLength="6"
             className="loginInput"
+            ref={password}
              />
-            <button className="loginButton">{isFetching ? <CircularProgress color="white" size="20px" /> : "LogIn"}</button>
+            <button className="loginButton" type="submit" disabled= {isFetching}>
+              {isFetching ? (
+              <CircularProgress/> ) : ("Log In")
+              }</button>
             <span className="loginForgot">Forgot Password?</span>
             <button className="loginRegisterButton">
               Create a New Account
