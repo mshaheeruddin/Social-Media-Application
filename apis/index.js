@@ -10,6 +10,7 @@ const postRoute = require("./routes/posts")
 const multer = require("multer")
 const path = require("path")
 const cors = require('cors')
+const cookieParser = require('cookie-parser')
 
 
 app.use(cors())
@@ -24,6 +25,8 @@ app.use("/images", express.static(path.join(__dirname, "public/images")))
 console.log(__dirname)
 
 //Middleware
+
+app.use(cookieParser())
 app.use(express.json())
 app.use(helmet())
 app.use(helmet.crossOriginResourcePolicy({ policy: "cross-origin" }));
@@ -38,6 +41,17 @@ const storage = multer.diskStorage({
   },
 
 })
+
+app.use((err, req, res, next) => {
+  const errorStatus = err.status || 500;
+  const errorMessage = err.message || "Something went wrong!";
+  return res.status(errorStatus).json({
+    success: false,
+    status: errorStatus,
+    message: errorMessage,
+    stack: err.stack,
+  });
+});
 
 const upload = multer({storage})
 app.post("/api/upload", upload.single("file"), (req,res) => {
