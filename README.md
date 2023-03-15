@@ -10,6 +10,6 @@ Cookies used for retaining session
 
 Here's a walkthrough of implemented user stories:
 
-<img src='https://imgur.com/96yfICM.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+<img src='[https://imgur.com/96yfICM.gif](https://imgur.com/a/96yfICM)' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
 GIF created with [LiceCap](http://www.cockos.com/licecap/).
