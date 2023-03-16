@@ -1,6 +1,7 @@
 # Social-Media-Application
-Pak social, a partially functional social media application developed during Web Development course offered at IBA University Fall 2022
+Pak social, social media application developed during Web Development course offered at IBA University Fall 2022
 
+MERN Stack
 Multer - for video uploading
 JWT Protected Routes
 Cookies used for retaining session
