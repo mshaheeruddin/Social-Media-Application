@@ -12,6 +12,10 @@ Here's a walkthrough of app:
 
 <img src='https://i.imgur.com/JBLBHp8.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
+
+Alt: https://imgur.com/JBLBHp8
+
+
 GIF created with [LiceCap](http://www.cockos.com/licecap/).
    
  
