@@ -10,9 +10,7 @@ Cookies used for retaining session
 
 Here's a walkthrough of app:
 
-<img src='https://i.imgur.com/JBLBHp8.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' /img>
-
-Alt: https://imgur.com/JBLBHp8
+<img src='[https://i.imgur.com/JBLBHp8.gif](https://i.imgur.com/JBLBHp8.gif)' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
 
 
