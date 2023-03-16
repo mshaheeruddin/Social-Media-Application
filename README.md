@@ -10,9 +10,9 @@ Cookies used for retaining session
 
 Here's a walkthrough of app:
 
-<img src='https://i.imgur.com/JBLBHp8.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+<img src='https://i.imgur.com/JBLBHp8.gif' title='Video Walkthrough' width='' alt='[Video Walkthrough](https://i.imgur.com/JBLBHp8.gif)' />
 
-
+https://i.imgur.com/JBLBHp8.gif
 
 
 GIF created with [LiceCap](http://www.cockos.com/licecap/).
